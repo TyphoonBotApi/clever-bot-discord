@@ -28,4 +28,4 @@ async def on_message(message):
         else:
             await client.send_message(message.channel, 'Use !clever <message>')
 
-client.run('token')
+ client.login(process.env.BOT_TOKEN);
